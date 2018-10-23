@@ -43,18 +43,61 @@ dt {
     border: solid 4px black;
     padding: 2px;
 }
+
+#sidebar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.twitter {
+  background-image: url('twitter-icon.png');
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  text-indent:-99999em
+}
+
+.facebook {
+  background-image: url('facebook-icon.png');
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  text-indent:-99999em
+}
+
+.pinterest {
+  background-image: url('pinterest-icon.png');
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  text-indent:-99999em
+}
+
 /*Navigation Styles*/
 
 nav ul li {
     display: inline;
-    border: solid 1px black;
+    border: solid 2px black;
     padding: 5px;
+    background-color: white;
 }
 
 .active {
     font-weight: 900;
-    background: #cccccc;
+    background: lightgreen;
     padding: 5px;
+    
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
 }
 
 /*Table Styles*/
