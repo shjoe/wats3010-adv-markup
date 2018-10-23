@@ -1,5 +1,17 @@
 /* Styles for the Advanced Markup assignment. */
 
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Nanum+Gothic');
+
+h1, h2 {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 /*About Page Styles*/
 
 dt {
@@ -28,6 +40,8 @@ dt {
     width: 25%;
     background: pink;
     margin: 20px; 
+    border: solid 4px black;
+    padding: 2px;
 }
 /*Navigation Styles*/
 
