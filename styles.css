@@ -27,7 +27,6 @@ dt {
     
 }
 
-
 .bio-photo img {
     width: 100%;
     height: auto;
@@ -40,8 +39,14 @@ dt {
     width: 25%;
     background: pink;
     margin: 20px; 
-    border: solid 4px black;
+    border: solid 4px #D90429;
     padding: 2px;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+#sidebar a {
+    color: #8D99AE;
 }
 
 #sidebar ul {
@@ -55,7 +60,7 @@ dt {
   width: 64px;
   height: 64px;
   background-repeat: no-repeat;
-  margin-right: 5px;
+  margin-right: 10px;
   text-indent:-99999em
 }
 
@@ -65,7 +70,7 @@ dt {
   width: 64px;
   height: 64px;
   background-repeat: no-repeat;
-  margin-right: 5px;
+  margin-right: 10px;
   text-indent:-99999em
 }
 
@@ -75,7 +80,7 @@ dt {
   width: 64px;
   height: 64px;
   background-repeat: no-repeat;
-  margin-right: 5px;
+  margin-right: 10px;
   text-indent:-99999em
 }
 
@@ -83,28 +88,35 @@ dt {
 
 nav ul li {
     display: inline;
-    border: solid 2px black;
+    border: solid 2px #2B2D42;
     padding: 5px;
     background-color: white;
 }
 
 .active {
     font-weight: 900;
-    background: lightgreen;
+    background-color: #2B2D42;
+    color: #EDF2F4;
     padding: 5px;
     
 }
 
-li a:hover {
-    background-color: #555;
-    color: white;
+nav li a:hover {
+    background-color: #2B2D42;
+    color: #EDF2F4;
 }
 
 /*Table Styles*/
 
-table {
-    width: 100%;
+#selected_works {
+    width: 50%;
     text-align: left;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: solid 2px black;
+    padding: 2px;
 }
 
 /*Content Styles*/
@@ -118,6 +130,15 @@ li {
 }
 
 .smalltext a {
+    text-underline-position: under;
+}
+
+/*Address*/
+
+address { 
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
     text-underline-position: under;
 }
 
