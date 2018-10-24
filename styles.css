@@ -113,3 +113,11 @@ table {
     list-style: none;
 }
 
+li {
+    text-underline-position: under;
+}
+
+.smalltext a {
+    text-underline-position: under;
+}
+
