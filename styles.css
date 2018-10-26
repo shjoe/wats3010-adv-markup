@@ -88,20 +88,23 @@ dt {
 
 nav ul li {
     display: inline;
-    border: solid 2px #2B2D42;
-    padding: 5px;
+    border: solid 2px #2B2D42;    
     background-color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .active {
     font-weight: 900;
     background-color: #2B2D42;
     color: #EDF2F4;
-    padding: 5px;
-    
 }
 
-nav li a:hover {
+nav a:hover {
     background-color: #2B2D42;
     color: #EDF2F4;
 }
