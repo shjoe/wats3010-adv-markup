@@ -56,7 +56,7 @@ dt {
 
 .twitter {
   background-image: url('twitter-icon.png');
-  display: block;
+  display: inline-block;
   width: 64px;
   height: 64px;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@ dt {
 
 .facebook {
   background-image: url('facebook-icon.png');
-  display: block;
+  display: inline-block;
   width: 64px;
   height: 64px;
   background-repeat: no-repeat;
@@ -117,6 +117,11 @@ footer {
     text-align: left;
 }
 
+tr:hover {
+    background-color:#2B2D42;
+    color: #EDF2F4;
+}
+
 table, th, td {
     border-collapse: collapse;
     border: solid 2px black;
@@ -127,6 +132,8 @@ table, th, td {
 
 .poem {
     list-style: none;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 li {
